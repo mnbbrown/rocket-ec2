@@ -1,0 +1,5 @@
+#cloud-config
+
+output: {all: ">> /var/log/cloud-init-output.log"}
+locale: en_US.UTF-8
+timezone: UTC
